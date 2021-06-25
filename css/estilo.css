@@ -1,0 +1,7 @@
+body{
+    background: #333333;
+	background: -webkit-linear-gradient(to right, #dd1818, #333333);
+	background: linear-gradient(to right, #dd1818, #333333);
+    margin: 0;
+    font-family: Candara;
+}

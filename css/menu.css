@@ -1,0 +1,97 @@
+.menu{
+    height: 100px;
+    background: #ECE9E6;
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    margin: 0;
+    list-style: none;
+    align-items: center;
+    display: flex;
+}
+
+.menu .logo{
+    width: 80px;
+    height: 80px;
+}
+
+.menu .opcion{
+    font-size: 20px;
+    outline: none;
+    border-right: 1px solid #9e092c;
+    height: 80%;
+    align-items: center;
+    display: flex;
+}
+    a:link, a:visited, a:active{
+        text-decoration: none;
+        color: #000000;
+    }
+
+.menu .opcion a{
+    margin-right: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.menu .titulo{
+    font-size: 25px;
+}
+
+.menu .titulo a{
+    margin-left: 0px;
+    font-weight: bold;
+}
+
+.menu .opcion a:hover{
+    color: #9e092c;
+}
+
+.barra a{
+    float: right;
+    margin-right: 10%;
+}
+
+.barra a:hover{
+    color: #9e092c;
+}
+
+.fondoMenuVertical{
+    box-sizing: border-box;
+    margin-top: 100px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    opacity: 0;
+}
+
+.menuVertical{
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    width: 200px;
+    float: right;
+    list-style: none;
+    padding: 0;
+    height: 210px;
+}
+
+.menuVertical .opcionV{
+    width: 80%;
+    margin-left: 10%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #9e092c;
+    align-items: center;
+    display: flex;
+}
+
+.menuVertical .opcionV a{
+    margin-left: 10px;
+}
+
+.menuVertical a:hover{
+    color: #9e092c;
+}

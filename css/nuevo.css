@@ -1,0 +1,11 @@
+.verCategoria{
+	color: #9e092c !important;
+	float: left;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	border-bottom: 0px solid #ECE9E6;
+}
+
+.verCategoria:hover{
+	border-bottom: 1px solid #9e092c;
+}

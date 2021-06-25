@@ -1,0 +1,97 @@
+/*Descripción*/
+
+.descripcion{
+    width: 90%;
+    margin: 0;
+    background: #ECE9E6;
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    text-align: center;
+    font-size: 20px;
+    margin: 5%;
+}
+
+.textoDescripcion{
+    width: 90%;
+    margin: 5%;
+}
+
+.espacioTextoDescripcion{
+    height: 1px;
+}
+
+/*Slider*/
+
+.contenedorSlider{
+    background: #ECE9E6;
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    width: 90%;
+    margin: 5%;
+}
+
+.imagenSlider{
+    background-color: lightblue;
+    width: 90%;
+    margin: 5%;
+    margin-bottom: 0;
+}
+
+.textoSlider{
+    word-break: break-all;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.menuSlider{
+    width: 100%;
+    text-align: center;
+}
+
+.opcionSlider{
+    display: inline-block;
+    background-color: grey;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+/*Ejemplos*/
+
+.ejemplos{
+    width: 90%;
+    margin: 5%;
+    text-align: center;
+}
+
+.contenedorEjemplo{
+    margin: 20px;
+    width: 300px;
+    display: inline-block;
+    background: #ECE9E6;
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+}
+
+.ejemplo{
+    width: 100%;
+}
+
+.nombreEjemplo{
+    width: 90%;
+    margin-left: 5%;
+    word-break: break-all;
+    font-size: 25px;
+}
+
+.precioEjemplo{
+    width: 90%;
+    margin-left: 5%;
+    word-break: break-all;
+    font-size: 20px;
+}

@@ -1,0 +1,41 @@
+.opciones{
+	width: 90%;
+	margin: 5%;
+	text-align: center;
+}
+
+.opcionPrenda{
+	width: 400px;
+	background: #ECE9E6;
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+	display: inline-block;
+	margin: 5%;
+	margin-top: 0;
+}
+
+.opcionPrenda img{
+	width: 90%;
+	margin: 5%;
+}
+
+.opcionPrenda h1{
+	word-break: break-all;
+}
+
+.opcionPrenda p{
+	font-size: 20px;
+	word-break: break-all;
+}
+
+.verMasPrenda{
+	color: blue !important;
+	float: right;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	border-bottom: 1px solid #ECE9E6;
+}
+
+.verMasPrenda:hover{
+	border-bottom: 1px solid blue;
+}
